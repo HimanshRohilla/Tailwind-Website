@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Website Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950">
+
+    <!-- Navbar Starts Here -->
+    <nav class="w-full h-14 bg-slate-600 flex items-center justify-between px-4 md:px-4">
+        <div class="text-2xl text-slate-950 ">Portfolio</div>
+        <ul class="md:flex hidden font-semibold">
+            <li class="mx-[10px] cursor-pointer">Home</li>
+            <li class="mx-[10px] cursor-pointer">About</li>
+            <li class="mx-[10px] cursor-pointer">Contact Us</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-slate-400 text-black rounded-lg font-bold cursor-pointer">Login/Signup</div>
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+    <!-- Image Section Starts Here! -->
+    <header class="w-full h-auto relative">
+        <img class="w-full h-[600px] hidden md:block" src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img class="w-full md:hidden" src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <div class="absolute bottom-0 w-full text-center bg-opacity-50 bg-black py-2">
+            <p class="text-white text-xl md:text-2xl font-semibold">Welcome to My Profile!</p>
+            <p class="mt-2 text-white text-lg md:text-lg font-semibold">You can check out the amazing things here!</p>
+        </div>
+    </header>
+    
+    
+    <!-- Image Section Ends Here! -->
+
+    <!-- Main Section Starts Here -->
+     <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center" id="text">
+            <p class="text-white font-bold text-3xl md:text-2xl text-center">"Total Projects"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="w-40 h-40" src="plan-list-svgrepo-com.svg" alt="">
+                <p class="text-3xl text-white">10+</p>
+                <p class="text-2xl text-gray-500 font-bold">Web Projects</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="w-40 h-40" src="plan-list-svgrepo-com.svg" alt="">
+                <p class="text-3xl text-white">12+</p>
+                <p class="text-2xl text-gray-500 font-bold">Python Projects</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="w-40 h-40" src="plan-list-svgrepo-com.svg" alt="">
+                <p class="text-3xl text-white">20+</p>
+                <p class="text-2xl text-gray-500 font-bold">Clone Projects</p>
+            </div>
+        </div>
+     </div>
+     <!-- Main Section Ends Here -->
+
+     <!-- Main Section 2 Starts Here -->
+     <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center" id="text">
+            <p class="text-white font-bold text-3xl md:text-2xl text-center">"Our Companies"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+        <div class="w-[90%] h-auto flex flex-wrap justify-around">
+            <div class="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-lg p-2">
+                <img class="mt-3 w-40 h-40 rounded-full" src="Blank Coders.jpg" alt="">
+                <p class="mt-3 text-3xl text-white font-bold">Blank Coders</p>
+                <p class="mt-2 mb-2 text-xl font-bold text-gray-500">An freelancing agency provides services of IT and Consultancy</p>
+            </div>
+
+            <div class="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-lg p-2">
+                <img class="mt-3 w-40 h-40 rounded-full" src="Skyline Mart.jpg" alt="">
+                <p class="mt-3 text-3xl text-white font-bold">Skyline Mart</p>
+                <p class="mt-2 mb-2 text-xl font-bold text-gray-500">A Droppshipping store which generate over 10k monthly sales.</p>
+            </div>
+
+            <div class="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-lg p-2">
+                <img class="mt-3 w-40 h-40 rounded-full" src="coding projects.png" alt="">
+                <p class="mt-3 text-3xl text-white font-bold">Coding Projects</p>
+                <p class="mt-2 mb-2 text-xl font-bold text-gray-500">A Blog Website where we upload multiple prorjects of coding.</p>
+            </div>
+        </div>
+     </div>
+     <!-- Main Section 2 ends Here -->
+
+     <!-- Our footer starts here -->
+      <footer class="w-full bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-4">
+        <div class="w-full flex items-center justify-center">
+            <p class="mb-5 text-center">Email Us: email123@gmail.com</p>
+        </div>
+        <div class="w-full flex items-center justify-center">
+            <p class="mb-5 text-center">Made by Himanshu</p>
+        </div>
+      </footer>
+      <!-- Our footer Ends here -->
+</body>
+</html>
